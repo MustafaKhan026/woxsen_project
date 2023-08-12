@@ -1,0 +1,72 @@
+.login_container{
+    width: 100%;
+    height: 90%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email_container{
+    width: 100%;
+    height: 22%;
+    /* background-color: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.password_container{
+    width: 100%;
+    height: 22%;
+    /* background-color: #d03030; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit_btn_container{
+    width: 100%;
+    height: 23%;
+    /* background-color: #25bd80; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup_btn_container{
+    width: 100%;
+    height: 23%;
+}
+input{
+    height: 35%;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    color: #fdfdfd;
+    transition: all 0.4s ease;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(10, 9, 9);
+    padding-bottom: 5px;
+
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    border-bottom: 1.5px solid #aaaaaa;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    /* color: white; */
+    font-size: 18px;
+    cursor: pointer;
+}
